@@ -1,0 +1,14 @@
+.category__card__wrapper{
+    width : 18rem;
+    height : max-content;    
+    background-color: var(--md-background-color);
+    border-radius: 10px 10px 0 0;
+}
+
+.category__card__wrapper:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.img-responsive{
+    border-radius: 10px 10px 0 0;
+}
