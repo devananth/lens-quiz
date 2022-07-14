@@ -1,0 +1,47 @@
+@import url("https://lens-ui.netlify.app/style.css");
+
+:root{
+    --background-color : #FAEBEFFF;
+    --md-background-color  : #fbf2ec;
+    --text-color : #333D79FF;
+}
+
+html{
+    background-color: var(--background-color);
+    color : var(--text-color);
+    margin : 1rem;
+}
+
+.App{
+    max-width : 1100px;
+    margin : 0 auto;
+}
+
+main{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    height : fit-content;
+    margin : 2rem auto;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.rules__wrapper{
+    border : 1px solid var(--text-color);
+    padding : 1rem;
+    background-color: var(--md-background-color);
+    border-radius: 1rem;
+}
+
+.rules__wrapper ul li{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.rules__wrapper ul li::before{
+    content : "=>";
+    margin-right : 5px;
+    font-weight: bold;
+}
