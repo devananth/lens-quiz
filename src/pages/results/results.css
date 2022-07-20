@@ -1,0 +1,24 @@
+.result__container{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result__header,
+.result__main{
+    border : none;
+}
+
+.result__main article{
+    border-bottom: 1px solid var(--text-color);
+}
+
+.result__main article:last-child{
+    border : none;
+}
+
+.result-page{
+    pointer-events: none;
+}
+
