@@ -22,4 +22,4 @@ Lens Quiz is a quiz application where users can attend quizes and check their kn
 - Leader Board
 - Quiz Timer
 
-### Live Link: [Click here](https://lens-play-git-refactor-devananth.vercel.app/)
+### Live Link: [Click here](https://lens-quiz-git-feat-adding-functionality-devananth.vercel.app/)
