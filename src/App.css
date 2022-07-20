@@ -12,8 +12,21 @@ html{
     margin : 1rem;
 }
 
+.btn[disabled]{
+    pointer-events: none;
+}
+
+.w-100{
+    width : 100%;
+}
+
+.cursor-ptr{
+    cursor: pointer;
+}
+
 .App{
     max-width : 1100px;
+    width:100%;
     margin : 0 auto;
 }
 
@@ -45,3 +58,28 @@ main{
     margin-right : 5px;
     font-weight: bold;
 }
+
+.options .btn{
+    text-transform: unset;
+}
+
+.options .selected{
+    background-color: var(--text-color);
+    color : var(--background-color)
+}
+
+.options .correct{
+    background-color: var(--success-color);
+    color : var(--white-color);
+}
+
+.options .wrong{
+    background-color: var(--danger-color);
+    color : var(--white-color);
+}
+
+.authentication__wrapper{
+    min-height : calc(100vh - 10rem);
+    margin : 1rem;
+}
+

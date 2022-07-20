@@ -1,0 +1,1 @@
+export { countCorrectAnswers } from "./countCorrectAnswers";

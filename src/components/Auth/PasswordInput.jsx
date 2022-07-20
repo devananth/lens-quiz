@@ -1,16 +1,6 @@
 import { useState } from "react";
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import "./Password.css";
-
-type PasswordInput = {
-  label: string,
-  name: string,
-  id: string,
-  placeholder: string,
-  value: string,
-  inputHandler: () => void,
-  error: Boolean,
-  focusHandler: () => void,
-};
 
 const PasswordInput = ({
   label,
@@ -49,11 +39,11 @@ const PasswordInput = ({
           onFocus={focusHandler}
         />
         <span className="password-icon" onClick={passwordTypeHandler}>
-          <i
-            className={`fas ${
-              passwordType === "text" ? "fa-eye-slash" : "fa-eye"
-            }`}
-          ></i>
+          {passwordType === "text" ? (
+            <AiOutlineEye />
+          ) : (
+            <AiOutlineEyeInvisible />
+          )}
         </span>
       </div>
 
